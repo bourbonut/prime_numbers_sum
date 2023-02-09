@@ -25,6 +25,11 @@ function zip(arrays) {
     });
 }
 
+function ceilInt(number){
+    var exposant = String(number).length - 1;
+    return (Math.floor(number * 10 ** (-exposant)) + 1) * 10 ** exposant;
+}
+
 d3.json("results/full.json", function(data) {
     var keys = [];
     for (key in data) { keys.push(key) };
@@ -38,11 +43,12 @@ d3.json("results/full.json", function(data) {
         };
     })
 
-    // // A color scale: one color for each group
+    // A color scale: one color for each group
     var myColor = d3.scaleOrdinal().domain(keys).range(d3.schemeSet2);
 
+    var xmax = data["python"].x.map(x => +x).reduce((a, b) => Math.max(a, b));
     // Add X axis --> it is a date format
-    var x = d3.scaleLinear().domain([0, 8]).range([0, width]);
+    var x = d3.scaleLinear().domain([0, xmax]).range([0, width]);
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x))
@@ -54,16 +60,17 @@ d3.json("results/full.json", function(data) {
         .attr("y", height + 30)
         .text("Power");
 
+    // var ymax = data["python"].x.map(x => +x).reduce((a, b) => Math.max(a, b));
+    var ymax = keys.map(key => data[key].y).flat(1).reduce((a, b) => Math.max(a, b));
     // Add Y axis
-    var y = d3.scaleLinear().domain([0, 300_000]).range([height, 0]);
-    svg.append("g").call(d3.axisLeft(y).ticks(10, "s"));
+    var y = d3.scaleLinear().domain([0, ceilInt(ymax)]).range([height, 0]);
+    svg.append("g").attr("class", "yaxis").call(d3.axisLeft(y).ticks(10, "s"));
 
     svg.append("text")
         .attr("class", "y label")
         .attr("text-anchor", "middle")
         .attr("x", -height / 2)
         .attr("y", -2 * margin.left / 3)
-        // .attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
         .text("Execution Time");
 
@@ -110,6 +117,51 @@ d3.json("results/full.json", function(data) {
         .style("fill", function(d) { return myColor(d.name) })
         .style("font-size", 15)
 
+    var visible = keys.reduce((visible, key) => {
+        visible[key] = true;
+        return visible;
+    }, {});
+    
+    function update(d){
+        var name = d.name;
+        visible[name] = !visible[name]; 
+        // console.log(visible)
+        var ymax = keys.filter(key => visible[key]).
+                        map(key => data[key].y).
+                        flat(1).
+                        reduce((a, b) => Math.max(a, b));
+        y.domain([0, ceilInt(ymax)]);
+        svg.selectAll("g.yaxis").
+            transition().
+            duration(1000).
+            call(d3.axisLeft(y).ticks(10, "s"));
+
+        var line = d3.line().x(function(d) { return x(d.x) }).y(function(d) { return y(d.y) })
+        for (key in data){
+            svg.selectAll("path."+ key)
+                .transition()
+                .duration(1000)
+                .attr("d", function(d) { return line(d.values)})
+                .style("opacity", visible[key] ? 1 : 0);
+
+            svg.selectAll("text." + key)
+                .transition()
+                .duration(1000)
+                .attr("y", function(d){return y(d.y)})
+                .attr("transform", function(d) { return "translate(" + x(d.value.x) + "," + y(d.value.y) + ")"; })
+                .attr("opacity", visible[key] ? 1 : 0);
+
+            svg.selectAll("g." + key)
+                .selectAll("circle")
+                .transition()
+                .duration(1000)
+                .attr("cy", function(d){return y(d.y)})
+                .style("opacity", visible[key] ? 1 : 0);
+        } 
+        // d3.selectAll("." + name).transition().duration(1000).style("opacity", visible[name] ? 1 : 0)
+        console.log(name);
+    }
+
     // Add a legend (interactive)
     svg
         .selectAll("myLegend")
@@ -122,10 +174,11 @@ d3.json("results/full.json", function(data) {
         .text(function(d) { return d.name; })
         .style("fill", function(d) { return myColor(d.name) })
         .style("font-size", 15)
-        .on("click", function(d) {
-            // is the element currently visible ?
-            currentOpacity = d3.selectAll("." + d.name).style("opacity")
-            // Change the opacity: from 0 to 1 or from 1 to 0
-            d3.selectAll("." + d.name).transition().style("opacity", currentOpacity == 1 ? 0 : 1)
-        })
+        .on("click", update)
+        // .on("click", function(d) {
+        //     // is the element currently visible ?
+        //     currentOpacity = d3.selectAll("." + d.name).style("opacity")
+        //     // Change the opacity: from 0 to 1 or from 1 to 0
+        //     d3.selectAll("." + d.name).transition().style("opacity", currentOpacity == 1 ? 0 : 1)
+        // })
 })
