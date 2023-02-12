@@ -4,8 +4,8 @@
 
 // Set the dimensions and margins of the graph
 var margin = { top: 10, right: 70, bottom: 60, left: 70 },
-    width = 500 - margin.left - margin.right,
-    height = 430 - margin.top - margin.bottom;
+    width = 700 - margin.left - margin.right,
+    height = 630 - margin.top - margin.bottom;
 
 // Append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -147,7 +147,6 @@ d3.json("results/full.json", function(data) {
             svg.selectAll("text." + key)
                 .transition()
                 .duration(1000)
-                .attr("y", function(d){return y(d.y)})
                 .attr("transform", function(d) { return "translate(" + x(d.value.x) + "," + y(d.value.y) + ")"; })
                 .attr("opacity", visible[key] ? 1 : 0);
 
@@ -158,9 +157,11 @@ d3.json("results/full.json", function(data) {
                 .attr("cy", function(d){return y(d.y)})
                 .style("opacity", visible[key] ? 1 : 0);
         } 
-        // d3.selectAll("." + name).transition().duration(1000).style("opacity", visible[name] ? 1 : 0)
-        console.log(name);
     }
+
+    var nbcolumns = 4;
+    var middle = (width - 100 * nbcolumns) / 2;
+    var rectsize = 20;
 
     // Add a legend (interactive)
     svg
@@ -168,17 +169,24 @@ d3.json("results/full.json", function(data) {
         .data(data_ready)
         .enter()
         .append('g')
+        .append('rect')
+        .attr('x', function(d, i) { return middle + (i % nbcolumns) * 100 })
+        .attr('y', function(d, i) { return 16 + 30 * (Math.floor(i / nbcolumns))})
+        .attr('width', rectsize)
+        .attr('height', rectsize)
+        .style("fill", function(d) {return myColor(d.name)})
+        .on("click", update)
+
+    svg
+        .selectAll("myRect")
+        .data(data_ready)
+        .enter()
+        .append('g')
         .append("text")
-        .attr('x', function(d, i) { return 30 + i * 60 })
-        .attr('y', 30)
+        .attr('x', function(d, i) { return middle + rectsize + 5 + (i % nbcolumns) * 100 })
+        .attr('y', function(d, i) { return 30 * (Math.floor(i / nbcolumns) + 1)})
         .text(function(d) { return d.name; })
-        .style("fill", function(d) { return myColor(d.name) })
+        .style("fill", function(d) { return "black" })
         .style("font-size", 15)
         .on("click", update)
-        // .on("click", function(d) {
-        //     // is the element currently visible ?
-        //     currentOpacity = d3.selectAll("." + d.name).style("opacity")
-        //     // Change the opacity: from 0 to 1 or from 1 to 0
-        //     d3.selectAll("." + d.name).transition().style("opacity", currentOpacity == 1 ? 0 : 1)
-        // })
 })
