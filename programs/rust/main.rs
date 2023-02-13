@@ -4,7 +4,7 @@ use std::time::Instant;
 type Dict = HashMap<u64, u128>;
 
 fn get_keys(n: u64, half_size: u64) -> Vec<u64> {
-    // calculation of keys used in the hashmap
+    // Calculation of keys used in the HashMap
     let mut v: Vec<u64> = Vec::new();
     for i in 0..half_size + 1 {
         v.push(n / (i + 1));
@@ -17,7 +17,7 @@ fn get_keys(n: u64, half_size: u64) -> Vec<u64> {
 }
 
 fn get_sums(keys: &[u64]) -> Dict {
-    //initialisation du hashmap
+    // Initialisation du hashmap
     let mut hmap = HashMap::new();
     for key in keys.iter() {
         let big_key = *key as u128;
@@ -55,10 +55,10 @@ fn primes(n: u64) -> u128 {
     all_sums[&n]
 }
 
-fn format(dist: usize, value: &String) -> String{
+fn format(dist: usize, value: &String) -> String {
     let mut v: String = value.to_string();
-    for _ in 1..(dist-(*value).len()){
-        v+=&" ";
+    for _ in 1..(dist - (*value).len()) {
+        v += &" ";
     }
     return v;
 }
@@ -69,10 +69,13 @@ fn main() {
     for i in 1..9 {
         let now = Instant::now();
         let n: u64 = (10_u64).pow(i);
-        // println!("Puissance: {}", i);
-        // println!("{}", primes(n));
         let value: u128 = primes(n);
         let new_now = Instant::now();
-        println!("{} | {} | {}", format(6, &(i.to_string())), format(10, &(new_now.duration_since(now).as_micros().to_string())), value);
+        println!(
+            "{} | {} | {}",
+            format(6, &(i.to_string())),
+            format(10, &(new_now.duration_since(now).as_micros().to_string())),
+            value
+        );
     }
 }
