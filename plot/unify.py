@@ -3,7 +3,7 @@ from math import log
 from pathlib import Path
 import json
 
-path = Path().absolute() / "results"
+path = Path().absolute().parent / "results"
 
 json_data = {}
 
@@ -24,4 +24,4 @@ for file in path.glob("*.txt"):
     log_data = [log(e) for e in y_data]
     json_data[language] = {"x": x_data, "y":y_data, "log":log_data}
 
-json.dump(json_data, open("results/full.json", "w"))
+json.dump(json_data, open("allresults.json", "w"))

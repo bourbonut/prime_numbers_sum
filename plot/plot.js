@@ -8,7 +8,16 @@ var margin = { top: 10, right: 70, bottom: 60, left: 70 },
     height = 630 - margin.top - margin.bottom;
 
 // Append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
+var svg_standard = d3.select("#standard")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+// Append the svg object to the body of the page
+var svg_logarithmic = d3.select("#logarithmic")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -26,25 +35,17 @@ function zip(arrays) {
 }
 
 function ceilInt(number){
-    var exposant = String(number).length - 1;
-    return (Math.floor(number * 10 ** (-exposant)) + 1) * 10 ** exposant;
+    if (Number(number) === number && number % 1 === 0){
+        var exposant = String(number).length - 1;
+        return (Math.floor(number * 10 ** (-exposant)) + 1) * 10 ** exposant;
+    } else {
+        return number;
+    }
 }
 
-d3.json("results/full.json", function(data) {
-    var keys = [];
-    for (key in data) { keys.push(key) };
-
-    var data_ready = keys.map(function(key) {
-        return {
-            name: key,
-            values: zip(data[key]).map(function(e) {
-                return { x: +e[0], y: +e[1], log: +e[2] };
-            })
-        };
-    })
-
+function draw(svg, data, data_ready, keys, yfunc){
     // A color scale: one color for each group
-    var myColor = d3.scaleOrdinal().domain(keys).range(d3.schemeSet2);
+    var randomcolors = d3.scaleOrdinal().domain(keys).range(d3.schemeSet2);
 
     var xmax = data["python"].x.map(x => +x).reduce((a, b) => Math.max(a, b));
     // Add X axis --> it is a date format
@@ -60,8 +61,7 @@ d3.json("results/full.json", function(data) {
         .attr("y", height + 30)
         .text("Power");
 
-    // var ymax = data["python"].x.map(x => +x).reduce((a, b) => Math.max(a, b));
-    var ymax = keys.map(key => data[key].y).flat(1).reduce((a, b) => Math.max(a, b));
+    var ymax = keys.map(key => yfunc(data[key])).flat(1).reduce((a, b) => Math.max(a, b));
     // Add Y axis
     var y = d3.scaleLinear().domain([0, ceilInt(ymax)]).range([height, 0]);
     svg.append("g").attr("class", "yaxis").call(d3.axisLeft(y).ticks(10, "s"));
@@ -75,22 +75,22 @@ d3.json("results/full.json", function(data) {
         .text("Execution Time");
 
     // Add the lines
-    var line = d3.line().x(function(d) { return x(+d.x) }).y(function(d) { return y(+d.y) })
-    svg.selectAll("myLines").data(data_ready).enter().append("path")
+    var line = d3.line().x(function(d) { return x(+d.x) }).y(function(d) { return y(+yfunc(d)) })
+    svg.selectAll("lines").data(data_ready).enter().append("path")
         .attr("class", function(d) { return d.name })
         .attr("d", function(d) { return line(d.values) })
-        .attr("stroke", function(d) { return myColor(d.name) })
+        .attr("stroke", function(d) { return randomcolors(d.name) })
         .style("stroke-width", 4)
         .style("fill", "none")
 
     // Add the points
     svg
         // First we need to enter in a group
-        .selectAll("myDots")
+        .selectAll("dots")
         .data(data_ready)
         .enter()
         .append('g')
-        .style("fill", function(d) { return myColor(d.name) })
+        .style("fill", function(d) { return randomcolors(d.name) })
         .attr("class", function(d) { return d.name })
         // Second we need to enter in the 'values' part of this group
         .selectAll("myPoints")
@@ -98,7 +98,7 @@ d3.json("results/full.json", function(data) {
         .enter()
         .append("circle")
         .attr("cx", function(d) { return x(d.x) })
-        .attr("cy", function(d) { return y(d.y) })
+        .attr("cy", function(d) { return y(yfunc(d)) })
         .attr("r", 5)
         .attr("stroke", "white")
 
@@ -111,10 +111,10 @@ d3.json("results/full.json", function(data) {
         .append("text")
         .attr("class", function(d) { return d.name })
         .datum(function(d) { return { name: d.name, value: d.values[d.values.length - 1] }; }) // keep only the last value of each time series
-        .attr("transform", function(d) { return "translate(" + x(d.value.x) + "," + y(d.value.y) + ")"; }) // Put the text at the position of the last point
+        .attr("transform", function(d) { return "translate(" + x(d.value.x) + "," + y(yfunc(d.value)) + ")"; }) // Put the text at the position of the last point
         .attr("x", 12) // shift the text a bit more right
         .text(function(d) { return d.name; })
-        .style("fill", function(d) { return myColor(d.name) })
+        .style("fill", function(d) { return randomcolors(d.name) })
         .style("font-size", 15)
 
     var visible = keys.reduce((visible, key) => {
@@ -125,9 +125,8 @@ d3.json("results/full.json", function(data) {
     function update(d){
         var name = d.name;
         visible[name] = !visible[name]; 
-        // console.log(visible)
         var ymax = keys.filter(key => visible[key]).
-                        map(key => data[key].y).
+                        map(key => yfunc(data[key])).
                         flat(1).
                         reduce((a, b) => Math.max(a, b));
         y.domain([0, ceilInt(ymax)]);
@@ -136,7 +135,7 @@ d3.json("results/full.json", function(data) {
             duration(1000).
             call(d3.axisLeft(y).ticks(10, "s"));
 
-        var line = d3.line().x(function(d) { return x(d.x) }).y(function(d) { return y(d.y) })
+        var line = d3.line().x(function(d) { return x(d.x) }).y(function(d) { return y(yfunc(d)) })
         for (key in data){
             svg.selectAll("path."+ key)
                 .transition()
@@ -147,14 +146,14 @@ d3.json("results/full.json", function(data) {
             svg.selectAll("text." + key)
                 .transition()
                 .duration(1000)
-                .attr("transform", function(d) { return "translate(" + x(d.value.x) + "," + y(d.value.y) + ")"; })
+                .attr("transform", function(d) { return "translate(" + x(d.value.x) + "," + y(yfunc(d.value)) + ")"; })
                 .attr("opacity", visible[key] ? 1 : 0);
 
             svg.selectAll("g." + key)
                 .selectAll("circle")
                 .transition()
                 .duration(1000)
-                .attr("cy", function(d){return y(d.y)})
+                .attr("cy", function(d){return y(yfunc(d))})
                 .style("opacity", visible[key] ? 1 : 0);
         } 
     }
@@ -165,7 +164,7 @@ d3.json("results/full.json", function(data) {
 
     // Add a legend (interactive)
     svg
-        .selectAll("myLegend")
+        .selectAll("legend")
         .data(data_ready)
         .enter()
         .append('g')
@@ -174,11 +173,11 @@ d3.json("results/full.json", function(data) {
         .attr('y', function(d, i) { return 16 + 30 * (Math.floor(i / nbcolumns))})
         .attr('width', rectsize)
         .attr('height', rectsize)
-        .style("fill", function(d) {return myColor(d.name)})
+        .style("fill", function(d) {return randomcolors(d.name)})
         .on("click", update)
 
     svg
-        .selectAll("myRect")
+        .selectAll("squares")
         .data(data_ready)
         .enter()
         .append('g')
@@ -189,4 +188,33 @@ d3.json("results/full.json", function(data) {
         .style("fill", function(d) { return "black" })
         .style("font-size", 15)
         .on("click", update)
+}
+
+d3.json("allresults.json", function(data) {
+    var keys = [];
+    for (key in data) { keys.push(key) };
+
+    var data_ready = keys.map(function(key) {
+        return {
+            name: key,
+            values: zip(data[key]).map(function(e) {
+                return { x: +e[0], y: +e[1], log: +e[2] };
+            })
+        };
+    })
+
+    draw(svg_standard, data, data_ready, keys, function(d){return d.y});
+    draw(svg_logarithmic, data, data_ready, keys, function(d){return d.log});
 })
+
+// function download(svg) {
+//     var serializer = new XMLSerializer();
+//     var svg_data = serializer.serializeToString(svg.node());
+
+//     var head = '<svg title="graph" version="1.1" xmlns="http://www.w3.org/2000/svg">'
+
+//     var full_svg = head + svg_data.replace("\n", "") + "</svg>"
+//     var blob = new Blob([full_svg], {type: "image/svg+xml"});  
+//     saveAs(blob, "graph.svg");
+// }
+
