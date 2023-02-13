@@ -36,7 +36,7 @@ Here is the [source of the algorithm](https://stackoverflow.com/questions/405752
 
 ## Result
 
-![](/graph.png)
+![](graph.svg)
 
 ## Limits
 
