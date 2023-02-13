@@ -2,15 +2,18 @@
 
 ## Description
 
-The project allows to see the difference of speed of program's execution between multiple languages with one algorithm which calculates the sum of prime numbers.
+The project allows to see the difference of speed of program's execution between multiple languages with one algorithm which computes the sum of prime numbers.
 Also, the goal is to use native libraries for each language.
 
 Languages:
 * C++
-* Cython
-* Elexir
+* Scala
+* Elixir
 * Python
 * Rust
+* Java
+* Lua
+* Javascript
 
 ## Algorithm used
 
@@ -40,10 +43,13 @@ Here is the [source of the algorithm](https://stackoverflow.com/questions/405752
 
 ## Limits
 
-With low level languages such as C++ or Cython, it's hard too manage high numbers without bringing an external library.
+With low level languages such as C++, integers are limited to 64 bits.
 In Rust, I don't have this problem, there are integers with 128 bits.
 But for instance, with C++, there are some issues when I try to manipulate integers with 128 bits.
-A solution could be to store numbers into string and manipulate them. But I think it will drastically slow down the speed of program's execution.
+A solution could be to create a class `BigInt` where it simulates a 128 bits number with two attributes.
+The maximum number that can be stored into a `unsigned long long` is `18,446,744,073,709,551,615`.
+Since we want to go to a number written such as `999,9..,..9,999`, we are able to reach `9,999,999,999,999,999,999` (which is `10e20 - 1`) but we can't reach `10e21 - 1`.
+Then, the first one would be all 19th first digits and the second one would be all digits upper to 10e20.
 
 ## Possible improvements
 
