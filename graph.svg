@@ -5,8 +5,8 @@
    id="svg422"
    sodipodi:docname="graph.svg"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
-   width="1451.6079"
-   height="641.5495"
+   width="749.79797"
+   height="1257.636"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.205"
-     inkscape:cx="770.12448"
-     inkscape:cy="344.39834"
+     inkscape:zoom="0.85206367"
+     inkscape:cx="699.47824"
+     inkscape:cy="627.88735"
      inkscape:window-width="2560"
      inkscape:window-height="1373"
      inkscape:window-x="0"
@@ -33,16 +33,14 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg422" />
   <rect
-     style="fill:#ffffff;stroke:#ffffff"
-     id="rect6697"
-     width="1450.6079"
-     height="640.5495"
-     x="0.5"
-     y="0.5"
-     rx="0"
-     ry="0" />
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1.01463"
+     id="rect627"
+     width="748.78333"
+     height="1256.6213"
+     x="0.50731498"
+     y="0.50731498" />
   <g
-     transform="translate(79.331863,32.390347)"
+     transform="translate(78.678583,31.146872)"
      id="g420">
     <g
        transform="translate(0,560)"
@@ -1223,7 +1221,7 @@
     </g>
   </g>
   <g
-     transform="translate(773.33689,32.377303)"
+     transform="translate(78.691166,651.12219)"
      id="g3061">
     <g
        transform="translate(0,560)"
