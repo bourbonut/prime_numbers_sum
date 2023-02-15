@@ -39,6 +39,8 @@ Here is the [source of the algorithm](https://stackoverflow.com/questions/405752
 
 ## Result
 
+The top graph is the execution time in microsecond given the power of the input (`10 ** power`) and the bottom graph is the application of the logarithm function applied on the execution time given the power of the input.
+
 ![graph](graph.svg)
 
 ## Limits
