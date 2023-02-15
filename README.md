@@ -39,7 +39,7 @@ Here is the [source of the algorithm](https://stackoverflow.com/questions/405752
 
 ## Result
 
-![graph](graph.svg)
+<!-- ![graph](graph.svg) -->
 
 ## Limits
 
