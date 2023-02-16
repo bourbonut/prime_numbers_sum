@@ -48,6 +48,7 @@ def format(dist:Int, string: String): String =
   add_space(dist - string.length(), string)
 
 @main def main() =
+  val result = primes(10)
   println("Power | Time (µs) | Resultat")
   println("========================================")
   for power <- (1 to 8) do
