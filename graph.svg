@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.85206367"
-     inkscape:cx="699.47824"
-     inkscape:cy="627.88735"
-     inkscape:window-width="2560"
+     inkscape:cx="417.80915"
+     inkscape:cy="629.06097"
+     inkscape:window-width="1280"
      inkscape:window-height="1373"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg422" />
   <rect
      style="fill:#ffffff;stroke:#ffffff;stroke-width:1.01463"
@@ -40,29 +40,29 @@
      x="0.50731498"
      y="0.50731498" />
   <g
-     transform="translate(78.678583,31.146872)"
-     id="g420">
+     transform="translate(78.690855,651.12248)"
+     id="g921">
     <g
        transform="translate(0,560)"
        fill="none"
        font-size="10px"
        font-family="sans-serif"
        text-anchor="middle"
-       id="g58">
+       id="g577">
       <path
          class="domain"
          stroke="#000000"
          d="M 0.5,6 V 0.5 h 560 V 6"
-         id="path2" />
+         id="path521" />
       <g
          class="tick"
          opacity="1"
          transform="translate(0.5)"
-         id="g8">
+         id="g527">
         <line
            stroke="#000000"
            y2="6"
-           id="line4"
+           id="line523"
            x1="0"
            y1="0"
            x2="0" />
@@ -70,17 +70,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text6">0</text>
+           id="text525">0</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(70.5)"
-         id="g14">
+         id="g533">
         <line
            stroke="#000000"
            y2="6"
-           id="line10"
+           id="line529"
            x1="0"
            y1="0"
            x2="0" />
@@ -88,17 +88,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text12">1</text>
+           id="text531">1</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(140.5)"
-         id="g20">
+         id="g539">
         <line
            stroke="#000000"
            y2="6"
-           id="line16"
+           id="line535"
            x1="0"
            y1="0"
            x2="0" />
@@ -106,17 +106,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text18">2</text>
+           id="text537">2</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(210.5)"
-         id="g26">
+         id="g545">
         <line
            stroke="#000000"
            y2="6"
-           id="line22"
+           id="line541"
            x1="0"
            y1="0"
            x2="0" />
@@ -124,17 +124,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text24">3</text>
+           id="text543">3</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(280.5)"
-         id="g32">
+         id="g551">
         <line
            stroke="#000000"
            y2="6"
-           id="line28"
+           id="line547"
            x1="0"
            y1="0"
            x2="0" />
@@ -142,17 +142,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text30">4</text>
+           id="text549">4</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(350.5)"
-         id="g38">
+         id="g557">
         <line
            stroke="#000000"
            y2="6"
-           id="line34"
+           id="line553"
            x1="0"
            y1="0"
            x2="0" />
@@ -160,17 +160,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text36">5</text>
+           id="text555">5</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(420.5)"
-         id="g44">
+         id="g563">
         <line
            stroke="#000000"
            y2="6"
-           id="line40"
+           id="line559"
            x1="0"
            y1="0"
            x2="0" />
@@ -178,17 +178,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text42">6</text>
+           id="text561">6</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(490.5)"
-         id="g50">
+         id="g569">
         <line
            stroke="#000000"
            y2="6"
-           id="line46"
+           id="line565"
            x1="0"
            y1="0"
            x2="0" />
@@ -196,17 +196,17 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text48">7</text>
+           id="text567">7</text>
       </g>
       <g
          class="tick"
          opacity="1"
          transform="translate(560.5)"
-         id="g56">
+         id="g575">
         <line
            stroke="#000000"
            y2="6"
-           id="line52"
+           id="line571"
            x1="0"
            y1="0"
            x2="0" />
@@ -214,7 +214,7 @@
            fill="#000000"
            y="9"
            dy="0.70999998em"
-           id="text54">8</text>
+           id="text573">8</text>
       </g>
     </g>
     <text
@@ -222,28 +222,28 @@
        text-anchor="middle"
        x="280"
        y="590"
-       id="text60">Power</text>
+       id="text579">Power</text>
     <g
        class="yaxis"
        fill="none"
        font-size="10px"
        font-family="sans-serif"
        text-anchor="end"
-       id="g160">
+       id="g661">
       <path
          class="domain"
          stroke="#000000"
          d="M -6,560.5 H 0.5 V 0.5 H -6"
-         id="path62" />
+         id="path581" />
       <g
          class="tick"
          opacity="1"
          transform="translate(0,560.5)"
-         id="g68">
+         id="g587">
         <line
            stroke="#000000"
            x2="-6"
-           id="line64"
+           id="line583"
            x1="0"
            y1="0"
            y2="0" />
@@ -251,17 +251,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text66">0k</text>
+           id="text585">0</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,523.16667)"
-         id="g74">
+         transform="translate(0,514.00148)"
+         id="g593">
         <line
            stroke="#000000"
            x2="-6"
-           id="line70"
+           id="line589"
            x1="0"
            y1="0"
            y2="0" />
@@ -269,17 +269,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text72">20k</text>
+           id="text591">1</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,485.83333)"
-         id="g80">
+         transform="translate(0,467.50297)"
+         id="g599">
         <line
            stroke="#000000"
            x2="-6"
-           id="line76"
+           id="line595"
            x1="0"
            y1="0"
            y2="0" />
@@ -287,17 +287,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text78">40k</text>
+           id="text597">2</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,448.5)"
-         id="g86">
+         transform="translate(0,421.00445)"
+         id="g605">
         <line
            stroke="#000000"
            x2="-6"
-           id="line82"
+           id="line601"
            x1="0"
            y1="0"
            y2="0" />
@@ -305,17 +305,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text84">60k</text>
+           id="text603">3</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,411.16667)"
-         id="g92">
+         transform="translate(0,374.50593)"
+         id="g611">
         <line
            stroke="#000000"
            x2="-6"
-           id="line88"
+           id="line607"
            x1="0"
            y1="0"
            y2="0" />
@@ -323,17 +323,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text90">80k</text>
+           id="text609">4</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,373.83333)"
-         id="g98">
+         transform="translate(0,328.00742)"
+         id="g617">
         <line
            stroke="#000000"
            x2="-6"
-           id="line94"
+           id="line613"
            x1="0"
            y1="0"
            y2="0" />
@@ -341,17 +341,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text96">100k</text>
+           id="text615">5</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,336.5)"
-         id="g104">
+         transform="translate(0,281.5089)"
+         id="g623">
         <line
            stroke="#000000"
            x2="-6"
-           id="line100"
+           id="line619"
            x1="0"
            y1="0"
            y2="0" />
@@ -359,17 +359,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text102">120k</text>
+           id="text621">6</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,299.16667)"
-         id="g110">
+         transform="translate(0,235.01038)"
+         id="g629">
         <line
            stroke="#000000"
            x2="-6"
-           id="line106"
+           id="line625"
            x1="0"
            y1="0"
            y2="0" />
@@ -377,17 +377,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text108">140k</text>
+           id="text627">7</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,261.83333)"
-         id="g116">
+         transform="translate(0,188.51187)"
+         id="g635">
         <line
            stroke="#000000"
            x2="-6"
-           id="line112"
+           id="line631"
            x1="0"
            y1="0"
            y2="0" />
@@ -395,17 +395,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text114">160k</text>
+           id="text633">8</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,224.5)"
-         id="g122">
+         transform="translate(0,142.01335)"
+         id="g641">
         <line
            stroke="#000000"
            x2="-6"
-           id="line118"
+           id="line637"
            x1="0"
            y1="0"
            y2="0" />
@@ -413,17 +413,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text120">180k</text>
+           id="text639">9</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,187.16667)"
-         id="g128">
+         transform="translate(0,95.514831)"
+         id="g647">
         <line
            stroke="#000000"
            x2="-6"
-           id="line124"
+           id="line643"
            x1="0"
            y1="0"
            y2="0" />
@@ -431,17 +431,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text126">200k</text>
+           id="text645">10</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,149.83333)"
-         id="g134">
+         transform="translate(0,49.016314)"
+         id="g653">
         <line
            stroke="#000000"
            x2="-6"
-           id="line130"
+           id="line649"
            x1="0"
            y1="0"
            y2="0" />
@@ -449,17 +449,17 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text132">220k</text>
+           id="text651">11</text>
       </g>
       <g
          class="tick"
          opacity="1"
-         transform="translate(0,112.5)"
-         id="g140">
+         transform="translate(0,2.5177976)"
+         id="g659">
         <line
            stroke="#000000"
            x2="-6"
-           id="line136"
+           id="line655"
            x1="0"
            y1="0"
            y2="0" />
@@ -467,61 +467,7 @@
            fill="#000000"
            x="-9"
            dy="0.31999999em"
-           id="text138">240k</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,75.166667)"
-         id="g146">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line142"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text144">260k</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,37.833333)"
-         id="g152">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line148"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text150">280k</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,0.5)"
-         id="g158">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line154"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text156">300k</text>
+           id="text657">12</text>
       </g>
     </g>
     <text
@@ -530,1821 +476,1785 @@
        x="-280"
        y="-46.666668"
        transform="rotate(-90)"
-       id="text162">Execution Time</text>
+       id="text663">Execution Time</text>
     <path
        class="cpp"
-       d="m 70,559.80213 70,-0.0933 70,-0.1232 70,-0.4424 70,-1.79573 70,-3.16587 70,-6.64533 70,-34.60987"
+       d="m 70,343.157 70,-17.96781 70,-16.40568 70,-33.77525 70,-52.54639 70,-36.52506 70,-35.42247 70,-61.791377"
        stroke="#66c2a5"
        style="fill:none;stroke-width:4"
-       id="path164" />
+       id="path665" />
     <path
        class="scala"
-       d="m 70,482.2832 70,76.84693 70,-1.98613 70,-3.44773 70,-2.9456 70,-25.32694 70,-30.80186 70,-76.62854"
+       d="m 70,307.33999 70,-29.72755 70,-59.81677 70,-38.20752 70,-15.12009 70,-71.718302 70,-7.037765 70,-52.821831"
        stroke="#fc8d62"
        style="fill:none;stroke-width:4"
-       id="path166" />
+       id="path667" />
     <path
        class="elixir"
-       d="m 70,557.98213 70,1.99174 70,-0.13254 70,-0.4256 70,-2.87093 70,-13.0088 70,-82.40587 70,-449.295463"
+       d="m 70,452.93321 70,-4.43178 70,-78.88238 70,-69.24335 70,-71.4658 70,-74.85151 L 490,76.255269 560,0"
        stroke="#8da0cb"
        style="fill:none;stroke-width:4"
-       id="path168" />
+       id="path669" />
     <path
        class="lua"
-       d="m 70,559.93093 70,-0.0541 70,-0.27067 70,-1.14986 70,-1.876 70,-2.42854 70,-20.54453 70,-92.708"
+       d="m 70,392.09767 70,-26.9104 70,-54.04074 70,-63.51448 70,-36.98301 70,-24.9503 70,-70.07075 70,-70.06764"
        stroke="#e78ac3"
        style="fill:none;stroke-width:4"
-       id="path170" />
+       id="path671" />
     <path
        class="java"
-       d="m 70,559.64533 70,0.24267 70,-0.6104 70,-1.40187 70,-3.1024 70,-16.04213 70,-14.50773 70,-40.01014"
+       d="m 70,316.02116 70,53.59789 70,-86.67696 70,-50.15344 70,-41.8648 70,-65.25916 70,-24.1816 70,-34.903187"
        stroke="#a6d854"
        style="fill:none;stroke-width:4"
-       id="path172" />
+       id="path673" />
     <path
        class="rust"
-       d="m 70,559.9496 70,0.007 70,-0.10267 70,-0.44053 70,-2.16347 70,-1.97307 70,-6.52026 70,-48.68267"
+       d="m 70,406.74847 70,7.4557 70,-56.78467 70,-64.75775 70,-71.87105 70,-25.1519 70,-40.33124 70,-77.808941"
        stroke="#ffd92f"
        style="fill:none;stroke-width:4"
-       id="path174" />
+       id="path675" />
     <path
        class="javascript"
-       d="m 70,559.83013 70,0.13067 70,-0.0616 70,-1.6968 70,-0.36027 70,-8.48586 70,-25.17014 70,-120.12746"
+       d="m 70,350.25172 70,68.1825 70,-43.91606 70,-133.96545 70,-8.49378 70,-74.20471 70,-56.41962 70,-68.406051"
        stroke="#e5c494"
        style="fill:none;stroke-width:4"
-       id="path176" />
+       id="path677" />
     <path
        class="python"
-       d="m 70,559.972 h 70 l 70,-0.084 70,-0.3416 70,-0.868 70,-5.27707 70,-25.17013 70,-134.75093"
+       d="m 70,434.07968 h 70 l 70,-64.46063 70,-65.03826 70,-49.72471 70,-74.77075 70,-73.07786 70,-77.030802"
        stroke="#b3b3b3"
        style="fill:none;stroke-width:4"
-       id="path178" />
+       id="path679" />
     <g
        class="cpp"
        style="fill:#66c2a5"
-       id="g196">
+       id="g697">
       <circle
          cx="70"
-         cy="559.80212"
+         cy="343.15701"
          r="5"
          stroke="#ffffff"
-         id="circle180" />
+         id="circle681" />
       <circle
          cx="140"
-         cy="559.7088"
+         cy="325.18918"
          r="5"
          stroke="#ffffff"
-         id="circle182" />
+         id="circle683" />
       <circle
          cx="210"
-         cy="559.58557"
+         cy="308.78351"
          r="5"
          stroke="#ffffff"
-         id="circle184" />
+         id="circle685" />
       <circle
          cx="280"
-         cy="559.14319"
+         cy="275.00827"
          r="5"
          stroke="#ffffff"
-         id="circle186" />
+         id="circle687" />
       <circle
          cx="350"
-         cy="557.34747"
+         cy="222.46187"
          r="5"
          stroke="#ffffff"
-         id="circle188" />
+         id="circle689" />
       <circle
          cx="420"
-         cy="554.18158"
+         cy="185.93681"
          r="5"
          stroke="#ffffff"
-         id="circle190" />
+         id="circle691" />
       <circle
          cx="490"
-         cy="547.53625"
+         cy="150.51434"
          r="5"
          stroke="#ffffff"
-         id="circle192" />
+         id="circle693" />
       <circle
          cx="560"
-         cy="512.92639"
+         cy="88.722961"
          r="5"
          stroke="#ffffff"
-         id="circle194" />
+         id="circle695" />
     </g>
     <g
        class="scala"
        style="fill:#fc8d62"
-       id="g214">
+       id="g715">
       <circle
          cx="70"
-         cy="482.2832"
+         cy="307.34"
          r="5"
          stroke="#ffffff"
-         id="circle198" />
+         id="circle699" />
       <circle
          cx="140"
-         cy="559.13013"
+         cy="277.61243"
          r="5"
          stroke="#ffffff"
-         id="circle200" />
+         id="circle701" />
       <circle
          cx="210"
-         cy="557.14398"
+         cy="217.79567"
          r="5"
          stroke="#ffffff"
-         id="circle202" />
+         id="circle703" />
       <circle
          cx="280"
-         cy="553.69629"
+         cy="179.58815"
          r="5"
          stroke="#ffffff"
-         id="circle204" />
+         id="circle705" />
       <circle
          cx="350"
-         cy="550.75067"
+         cy="164.46806"
          r="5"
          stroke="#ffffff"
-         id="circle206" />
+         id="circle707" />
       <circle
          cx="420"
-         cy="525.42371"
+         cy="92.749756"
          r="5"
          stroke="#ffffff"
-         id="circle208" />
+         id="circle709" />
       <circle
          cx="490"
-         cy="494.62186"
+         cy="85.71199"
          r="5"
          stroke="#ffffff"
-         id="circle210" />
+         id="circle711" />
       <circle
          cx="560"
-         cy="417.99335"
+         cy="32.890163"
          r="5"
          stroke="#ffffff"
-         id="circle212" />
+         id="circle713" />
     </g>
     <g
        class="elixir"
        style="fill:#8da0cb"
-       id="g232">
+       id="g733">
       <circle
          cx="70"
-         cy="557.98212"
+         cy="452.9332"
          r="5"
          stroke="#ffffff"
-         id="circle216" />
+         id="circle717" />
       <circle
          cx="140"
-         cy="559.97388"
+         cy="448.50143"
          r="5"
          stroke="#ffffff"
-         id="circle218" />
+         id="circle719" />
       <circle
          cx="210"
-         cy="559.84131"
+         cy="369.61905"
          r="5"
          stroke="#ffffff"
-         id="circle220" />
+         id="circle721" />
       <circle
          cx="280"
-         cy="559.41571"
+         cy="300.3757"
          r="5"
          stroke="#ffffff"
-         id="circle222" />
+         id="circle723" />
       <circle
          cx="350"
-         cy="556.5448"
+         cy="228.9099"
          r="5"
          stroke="#ffffff"
-         id="circle224" />
+         id="circle725" />
       <circle
          cx="420"
-         cy="543.53601"
+         cy="154.0584"
          r="5"
          stroke="#ffffff"
-         id="circle226" />
+         id="circle727" />
       <circle
          cx="490"
-         cy="461.13013"
+         cy="76.255272"
          r="5"
          stroke="#ffffff"
-         id="circle228" />
-      <circle
-         cx="560"
-         cy="11.834666"
-         r="5"
-         stroke="#ffffff"
-         id="circle230" />
-    </g>
-    <g
-       class="lua"
-       style="fill:#e78ac3"
-       id="g250">
-      <circle
-         cx="70"
-         cy="559.93091"
-         r="5"
-         stroke="#ffffff"
-         id="circle234" />
-      <circle
-         cx="140"
-         cy="559.87677"
-         r="5"
-         stroke="#ffffff"
-         id="circle236" />
-      <circle
-         cx="210"
-         cy="559.60614"
-         r="5"
-         stroke="#ffffff"
-         id="circle238" />
-      <circle
-         cx="280"
-         cy="558.45624"
-         r="5"
-         stroke="#ffffff"
-         id="circle240" />
-      <circle
-         cx="350"
-         cy="556.58026"
-         r="5"
-         stroke="#ffffff"
-         id="circle242" />
-      <circle
-         cx="420"
-         cy="554.15173"
-         r="5"
-         stroke="#ffffff"
-         id="circle244" />
-      <circle
-         cx="490"
-         cy="533.60718"
-         r="5"
-         stroke="#ffffff"
-         id="circle246" />
-      <circle
-         cx="560"
-         cy="440.8992"
-         r="5"
-         stroke="#ffffff"
-         id="circle248" />
-    </g>
-    <g
-       class="java"
-       style="fill:#a6d854"
-       id="g268">
-      <circle
-         cx="70"
-         cy="559.64532"
-         r="5"
-         stroke="#ffffff"
-         id="circle252" />
-      <circle
-         cx="140"
-         cy="559.888"
-         r="5"
-         stroke="#ffffff"
-         id="circle254" />
-      <circle
-         cx="210"
-         cy="559.27759"
-         r="5"
-         stroke="#ffffff"
-         id="circle256" />
-      <circle
-         cx="280"
-         cy="557.87573"
-         r="5"
-         stroke="#ffffff"
-         id="circle258" />
-      <circle
-         cx="350"
-         cy="554.77332"
-         r="5"
-         stroke="#ffffff"
-         id="circle260" />
-      <circle
-         cx="420"
-         cy="538.7312"
-         r="5"
-         stroke="#ffffff"
-         id="circle262" />
-      <circle
-         cx="490"
-         cy="524.22345"
-         r="5"
-         stroke="#ffffff"
-         id="circle264" />
-      <circle
-         cx="560"
-         cy="484.21335"
-         r="5"
-         stroke="#ffffff"
-         id="circle266" />
-    </g>
-    <g
-       class="rust"
-       style="fill:#ffd92f"
-       id="g286">
-      <circle
-         cx="70"
-         cy="559.94958"
-         r="5"
-         stroke="#ffffff"
-         id="circle270" />
-      <circle
-         cx="140"
-         cy="559.95709"
-         r="5"
-         stroke="#ffffff"
-         id="circle272" />
-      <circle
-         cx="210"
-         cy="559.85437"
-         r="5"
-         stroke="#ffffff"
-         id="circle274" />
-      <circle
-         cx="280"
-         cy="559.41388"
-         r="5"
-         stroke="#ffffff"
-         id="circle276" />
-      <circle
-         cx="350"
-         cy="557.25043"
-         r="5"
-         stroke="#ffffff"
-         id="circle278" />
-      <circle
-         cx="420"
-         cy="555.27734"
-         r="5"
-         stroke="#ffffff"
-         id="circle280" />
-      <circle
-         cx="490"
-         cy="548.75708"
-         r="5"
-         stroke="#ffffff"
-         id="circle282" />
-      <circle
-         cx="560"
-         cy="500.0744"
-         r="5"
-         stroke="#ffffff"
-         id="circle284" />
-    </g>
-    <g
-       class="javascript"
-       style="fill:#e5c494"
-       id="g304">
-      <circle
-         cx="70"
-         cy="559.83014"
-         r="5"
-         stroke="#ffffff"
-         id="circle288" />
-      <circle
-         cx="140"
-         cy="559.96082"
-         r="5"
-         stroke="#ffffff"
-         id="circle290" />
-      <circle
-         cx="210"
-         cy="559.89917"
-         r="5"
-         stroke="#ffffff"
-         id="circle292" />
-      <circle
-         cx="280"
-         cy="558.20239"
-         r="5"
-         stroke="#ffffff"
-         id="circle294" />
-      <circle
-         cx="350"
-         cy="557.84216"
-         r="5"
-         stroke="#ffffff"
-         id="circle296" />
-      <circle
-         cx="420"
-         cy="549.35626"
-         r="5"
-         stroke="#ffffff"
-         id="circle298" />
-      <circle
-         cx="490"
-         cy="524.18616"
-         r="5"
-         stroke="#ffffff"
-         id="circle300" />
-      <circle
-         cx="560"
-         cy="404.05865"
-         r="5"
-         stroke="#ffffff"
-         id="circle302" />
-    </g>
-    <g
-       class="python"
-       style="fill:#b3b3b3"
-       id="g322">
-      <circle
-         cx="70"
-         cy="559.97198"
-         r="5"
-         stroke="#ffffff"
-         id="circle306" />
-      <circle
-         cx="140"
-         cy="559.97198"
-         r="5"
-         stroke="#ffffff"
-         id="circle308" />
-      <circle
-         cx="210"
-         cy="559.888"
-         r="5"
-         stroke="#ffffff"
-         id="circle310" />
-      <circle
-         cx="280"
-         cy="559.54639"
-         r="5"
-         stroke="#ffffff"
-         id="circle312" />
-      <circle
-         cx="350"
-         cy="558.67841"
-         r="5"
-         stroke="#ffffff"
-         id="circle314" />
-      <circle
-         cx="420"
-         cy="553.40131"
-         r="5"
-         stroke="#ffffff"
-         id="circle316" />
-      <circle
-         cx="490"
-         cy="528.2312"
-         r="5"
-         stroke="#ffffff"
-         id="circle318" />
-      <circle
-         cx="560"
-         cy="393.48026"
-         r="5"
-         stroke="#ffffff"
-         id="circle320" />
-    </g>
-    <g
-       id="g326">
-      <text
-         class="cpp"
-         transform="translate(560,512.9264)"
-         x="12"
-         style="font-size:15px;fill:#66c2a5"
-         id="text324">cpp</text>
-    </g>
-    <g
-       id="g330">
-      <text
-         class="scala"
-         transform="translate(560,417.99333)"
-         x="12"
-         style="font-size:15px;fill:#fc8d62"
-         id="text328">scala</text>
-    </g>
-    <g
-       id="g334">
-      <text
-         class="elixir"
-         transform="translate(560,11.834667)"
-         x="12"
-         style="font-size:15px;fill:#8da0cb"
-         id="text332">elixir</text>
-    </g>
-    <g
-       id="g338">
-      <text
-         class="lua"
-         transform="translate(560,440.8992)"
-         x="12"
-         style="font-size:15px;fill:#e78ac3"
-         id="text336">lua</text>
-    </g>
-    <g
-       id="g342">
-      <text
-         class="java"
-         transform="translate(560,484.21333)"
-         x="12"
-         style="font-size:15px;fill:#a6d854"
-         id="text340">java</text>
-    </g>
-    <g
-       id="g346">
-      <text
-         class="rust"
-         transform="translate(560,500.0744)"
-         x="12"
-         style="font-size:15px;fill:#ffd92f"
-         id="text344">rust</text>
-    </g>
-    <g
-       id="g350">
-      <text
-         class="javascript"
-         transform="translate(560,404.05867)"
-         x="12"
-         style="font-size:15px;fill:#e5c494"
-         id="text348">javascript</text>
-    </g>
-    <g
-       id="g354">
-      <text
-         class="python"
-         transform="translate(560,393.48027)"
-         x="12"
-         style="font-size:15px;fill:#b3b3b3"
-         id="text352">python</text>
-    </g>
-    <g
-       id="g358">
-      <rect
-         x="80"
-         y="16"
-         width="20"
-         height="20"
-         style="fill:#66c2a5"
-         id="rect356" />
-    </g>
-    <g
-       id="g362">
-      <rect
-         x="180"
-         y="16"
-         width="20"
-         height="20"
-         style="fill:#fc8d62"
-         id="rect360" />
-    </g>
-    <g
-       id="g366">
-      <rect
-         x="280"
-         y="16"
-         width="20"
-         height="20"
-         style="fill:#8da0cb"
-         id="rect364" />
-    </g>
-    <g
-       id="g370">
-      <rect
-         x="380"
-         y="16"
-         width="20"
-         height="20"
-         style="fill:#e78ac3"
-         id="rect368" />
-    </g>
-    <g
-       id="g374">
-      <rect
-         x="80"
-         y="46"
-         width="20"
-         height="20"
-         style="fill:#a6d854"
-         id="rect372" />
-    </g>
-    <g
-       id="g378">
-      <rect
-         x="180"
-         y="46"
-         width="20"
-         height="20"
-         style="fill:#ffd92f"
-         id="rect376" />
-    </g>
-    <g
-       id="g382">
-      <rect
-         x="280"
-         y="46"
-         width="20"
-         height="20"
-         style="fill:#e5c494"
-         id="rect380" />
-    </g>
-    <g
-       id="g386">
-      <rect
-         x="380"
-         y="46"
-         width="20"
-         height="20"
-         style="fill:#b3b3b3"
-         id="rect384" />
-    </g>
-    <g
-       id="g390">
-      <text
-         x="105"
-         y="30"
-         style="font-size:15px;fill:#000000"
-         id="text388">cpp</text>
-    </g>
-    <g
-       id="g394">
-      <text
-         x="205"
-         y="30"
-         style="font-size:15px;fill:#000000"
-         id="text392">scala</text>
-    </g>
-    <g
-       id="g398">
-      <text
-         x="305"
-         y="30"
-         style="font-size:15px;fill:#000000"
-         id="text396">elixir</text>
-    </g>
-    <g
-       id="g402">
-      <text
-         x="405"
-         y="30"
-         style="font-size:15px;fill:#000000"
-         id="text400">lua</text>
-    </g>
-    <g
-       id="g406">
-      <text
-         x="105"
-         y="60"
-         style="font-size:15px;fill:#000000"
-         id="text404">java</text>
-    </g>
-    <g
-       id="g410">
-      <text
-         x="205"
-         y="60"
-         style="font-size:15px;fill:#000000"
-         id="text408">rust</text>
-    </g>
-    <g
-       id="g414">
-      <text
-         x="305"
-         y="60"
-         style="font-size:15px;fill:#000000"
-         id="text412">javascript</text>
-    </g>
-    <g
-       id="g418">
-      <text
-         x="405"
-         y="60"
-         style="font-size:15px;fill:#000000"
-         id="text416">python</text>
-    </g>
-  </g>
-  <g
-     transform="translate(78.691166,651.12219)"
-     id="g3061">
-    <g
-       transform="translate(0,560)"
-       fill="none"
-       font-size="10px"
-       font-family="sans-serif"
-       text-anchor="middle"
-       id="g2717">
-      <path
-         class="domain"
-         stroke="#000000"
-         d="M 0.5,6 V 0.5 h 560 V 6"
-         id="path2661" />
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0.5)"
-         id="g2667">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2663"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2665">0</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(70.5)"
-         id="g2673">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2669"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2671">1</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(140.5)"
-         id="g2679">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2675"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2677">2</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(210.5)"
-         id="g2685">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2681"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2683">3</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(280.5)"
-         id="g2691">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2687"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2689">4</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(350.5)"
-         id="g2697">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2693"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2695">5</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(420.5)"
-         id="g2703">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2699"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2701">6</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(490.5)"
-         id="g2709">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2705"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2707">7</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(560.5)"
-         id="g2715">
-        <line
-           stroke="#000000"
-           y2="6"
-           id="line2711"
-           x1="0"
-           y1="0"
-           x2="0" />
-        <text
-           fill="#000000"
-           y="9"
-           dy="0.70999998em"
-           id="text2713">8</text>
-      </g>
-    </g>
-    <text
-       class="x label"
-       text-anchor="middle"
-       x="280"
-       y="590"
-       id="text2719">Power</text>
-    <g
-       class="yaxis"
-       fill="none"
-       font-size="10px"
-       font-family="sans-serif"
-       text-anchor="end"
-       id="g2801">
-      <path
-         class="domain"
-         stroke="#000000"
-         d="M -6,560.5 H 0.5 V 0.5 H -6"
-         id="path2721" />
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,560.5)"
-         id="g2727">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2723"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2725">0</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,516.02088)"
-         id="g2733">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2729"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2731">1</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,471.54177)"
-         id="g2739">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2735"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2737">2</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,427.06265)"
-         id="g2745">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2741"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2743">3</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,382.58353)"
-         id="g2751">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2747"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2749">4</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,338.10441)"
-         id="g2757">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2753"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2755">5</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,293.6253)"
-         id="g2763">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2759"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2761">6</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,249.14618)"
-         id="g2769">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2765"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2767">7</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,204.66706)"
-         id="g2775">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2771"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2773">8</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,160.18794)"
-         id="g2781">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2777"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2779">9</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,115.70883)"
-         id="g2787">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2783"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2785">10</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,71.22971)"
-         id="g2793">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2789"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2791">11</text>
-      </g>
-      <g
-         class="tick"
-         opacity="1"
-         transform="translate(0,26.750593)"
-         id="g2799">
-        <line
-           stroke="#000000"
-           x2="-6"
-           id="line2795"
-           x1="0"
-           y1="0"
-           y2="0" />
-        <text
-           fill="#000000"
-           x="-9"
-           dy="0.31999999em"
-           id="text2797">12</text>
-      </g>
-    </g>
-    <text
-       class="y label"
-       text-anchor="middle"
-       x="-280"
-       y="-46.666668"
-       transform="rotate(-90)"
-       id="text2803">Execution Time</text>
-    <path
-       class="cpp"
-       d="m 70,352.57435 70,-17.18749 70,-15.69318 70,-32.30842 70,-50.26434 70,-34.9388 70,-33.88409 70,-59.10782"
-       stroke="#66c2a5"
-       style="fill:none;stroke-width:4"
-       id="path2805" />
-    <path
-       class="scala"
-       d="m 70,86.8902 70,199.82185 70,-52.87844 70,-35.21501 70,-17.05371 70,-58.65088 70,-28.3341 70,-34.501836"
-       stroke="#fc8d62"
-       style="fill:none;stroke-width:4"
-       id="path2807" />
-    <path
-       class="elixir"
-       d="m 70,249.28482 70,193.33224 70,-80.22227 70,-57.98084 70,-79.05176 70,-69.44506 L 490,76.182606 560,0"
-       stroke="#8da0cb"
-       style="fill:none;stroke-width:4"
-       id="path2809" />
-    <path
-       class="lua"
-       d="m 70,399.38956 70,-25.7417 70,-51.69379 70,-60.75609 70,-35.37686 70,-23.86673 70,-67.02762 70,-67.024649"
-       stroke="#e78ac3"
-       style="fill:none;stroke-width:4"
-       id="path2811" />
-    <path
-       class="java"
-       d="m 70,326.617 70,51.27017 70,-82.91264 70,-47.97531 70,-40.04664 70,-62.42499 70,-23.13141 70,-33.387371"
-       stroke="#a6d854"
-       style="fill:none;stroke-width:4"
-       id="path2813" />
-    <path
-       class="rust"
-       d="m 70,413.40409 70,7.1319 70,-54.31855 70,-61.94536 70,-68.74975 70,-24.05956 70,-38.57968 70,-74.429758"
-       stroke="#ffd92f"
-       style="fill:none;stroke-width:4"
-       id="path2815" />
-    <path
-       class="javascript"
-       d="m 70,359.36095 70,65.22138 70,-42.00882 70,-128.14742 70,-8.1249 70,-70.98205 70,-53.96935 70,-65.435222"
-       stroke="#e5c494"
-       style="fill:none;stroke-width:4"
-       id="path2817" />
-    <path
-       class="python"
-       d="m 70,439.54832 h 70 l 70,-61.66115 70,-62.21369 70,-47.5652 70,-71.52351 70,-69.90414 70,-73.685402"
-       stroke="#b3b3b3"
-       style="fill:none;stroke-width:4"
-       id="path2819" />
-    <g
-       class="cpp"
-       style="fill:#66c2a5"
-       id="g2837">
-      <circle
-         cx="70"
-         cy="352.57434"
-         r="5"
-         stroke="#ffffff"
-         id="circle2821" />
-      <circle
-         cx="140"
-         cy="335.38687"
-         r="5"
-         stroke="#ffffff"
-         id="circle2823" />
-      <circle
-         cx="210"
-         cy="319.69366"
-         r="5"
-         stroke="#ffffff"
-         id="circle2825" />
-      <circle
-         cx="280"
-         cy="287.38525"
-         r="5"
-         stroke="#ffffff"
-         id="circle2827" />
-      <circle
-         cx="350"
-         cy="237.12093"
-         r="5"
-         stroke="#ffffff"
-         id="circle2829" />
-      <circle
-         cx="420"
-         cy="202.18213"
-         r="5"
-         stroke="#ffffff"
-         id="circle2831" />
-      <circle
-         cx="490"
-         cy="168.29803"
-         r="5"
-         stroke="#ffffff"
-         id="circle2833" />
-      <circle
-         cx="560"
-         cy="109.19021"
-         r="5"
-         stroke="#ffffff"
-         id="circle2835" />
-    </g>
-    <g
-       class="scala"
-       style="fill:#fc8d62"
-       id="g2855">
-      <circle
-         cx="70"
-         cy="86.890198"
-         r="5"
-         stroke="#ffffff"
-         id="circle2839" />
-      <circle
-         cx="140"
-         cy="286.71204"
-         r="5"
-         stroke="#ffffff"
-         id="circle2841" />
-      <circle
-         cx="210"
-         cy="233.8336"
-         r="5"
-         stroke="#ffffff"
-         id="circle2843" />
-      <circle
-         cx="280"
-         cy="198.61861"
-         r="5"
-         stroke="#ffffff"
-         id="circle2845" />
-      <circle
-         cx="350"
-         cy="181.5649"
-         r="5"
-         stroke="#ffffff"
-         id="circle2847" />
-      <circle
-         cx="420"
-         cy="122.91401"
-         r="5"
-         stroke="#ffffff"
-         id="circle2849" />
-      <circle
-         cx="490"
-         cy="94.57991"
-         r="5"
-         stroke="#ffffff"
-         id="circle2851" />
-      <circle
-         cx="560"
-         cy="60.078075"
-         r="5"
-         stroke="#ffffff"
-         id="circle2853" />
-    </g>
-    <g
-       class="elixir"
-       style="fill:#8da0cb"
-       id="g2873">
-      <circle
-         cx="70"
-         cy="249.28482"
-         r="5"
-         stroke="#ffffff"
-         id="circle2857" />
-      <circle
-         cx="140"
-         cy="442.61707"
-         r="5"
-         stroke="#ffffff"
-         id="circle2859" />
-      <circle
-         cx="210"
-         cy="362.39481"
-         r="5"
-         stroke="#ffffff"
-         id="circle2861" />
-      <circle
-         cx="280"
-         cy="304.41394"
-         r="5"
-         stroke="#ffffff"
-         id="circle2863" />
-      <circle
-         cx="350"
-         cy="225.3622"
-         r="5"
-         stroke="#ffffff"
-         id="circle2865" />
-      <circle
-         cx="420"
-         cy="155.91713"
-         r="5"
-         stroke="#ffffff"
-         id="circle2867" />
-      <circle
-         cx="490"
-         cy="76.18261"
-         r="5"
-         stroke="#ffffff"
-         id="circle2869" />
+         id="circle729" />
       <circle
          cx="560"
          cy="0"
          r="5"
          stroke="#ffffff"
-         id="circle2871" />
+         id="circle731" />
     </g>
     <g
        class="lua"
        style="fill:#e78ac3"
-       id="g2891">
+       id="g751">
       <circle
          cx="70"
-         cy="399.38956"
+         cy="392.09769"
          r="5"
          stroke="#ffffff"
-         id="circle2875" />
+         id="circle735" />
       <circle
          cx="140"
-         cy="373.64786"
+         cy="365.18726"
          r="5"
          stroke="#ffffff"
-         id="circle2877" />
+         id="circle737" />
       <circle
          cx="210"
-         cy="321.95407"
+         cy="311.14655"
          r="5"
          stroke="#ffffff"
-         id="circle2879" />
+         id="circle739" />
       <circle
          cx="280"
-         cy="261.19797"
+         cy="247.63205"
          r="5"
          stroke="#ffffff"
-         id="circle2881" />
+         id="circle741" />
       <circle
          cx="350"
-         cy="225.82112"
+         cy="210.64903"
          r="5"
          stroke="#ffffff"
-         id="circle2883" />
+         id="circle743" />
       <circle
          cx="420"
-         cy="201.95439"
+         cy="185.69873"
          r="5"
          stroke="#ffffff"
-         id="circle2885" />
+         id="circle745" />
       <circle
          cx="490"
-         cy="134.92677"
+         cy="115.62798"
          r="5"
          stroke="#ffffff"
-         id="circle2887" />
+         id="circle747" />
       <circle
          cx="560"
-         cy="67.902122"
+         cy="45.560349"
          r="5"
          stroke="#ffffff"
-         id="circle2889" />
+         id="circle749" />
     </g>
     <g
        class="java"
        style="fill:#a6d854"
-       id="g2909">
+       id="g769">
       <circle
          cx="70"
-         cy="326.617"
+         cy="316.02115"
          r="5"
          stroke="#ffffff"
-         id="circle2893" />
+         id="circle753" />
       <circle
          cx="140"
-         cy="377.88718"
+         cy="369.61905"
          r="5"
          stroke="#ffffff"
-         id="circle2895" />
+         id="circle755" />
       <circle
          cx="210"
-         cy="294.97452"
+         cy="282.94208"
          r="5"
          stroke="#ffffff"
-         id="circle2897" />
+         id="circle757" />
       <circle
          cx="280"
-         cy="246.99922"
+         cy="232.78865"
          r="5"
          stroke="#ffffff"
-         id="circle2899" />
+         id="circle759" />
       <circle
          cx="350"
-         cy="206.95258"
+         cy="190.92384"
          r="5"
          stroke="#ffffff"
-         id="circle2901" />
+         id="circle761" />
       <circle
          cx="420"
-         cy="144.52759"
+         cy="125.6647"
          r="5"
          stroke="#ffffff"
-         id="circle2903" />
+         id="circle763" />
       <circle
          cx="490"
-         cy="121.39618"
+         cy="101.48309"
          r="5"
          stroke="#ffffff"
-         id="circle2905" />
+         id="circle765" />
       <circle
          cx="560"
-         cy="88.008812"
+         cy="66.579903"
          r="5"
          stroke="#ffffff"
-         id="circle2907" />
+         id="circle767" />
     </g>
     <g
        class="rust"
        style="fill:#ffd92f"
-       id="g2927">
+       id="g787">
       <circle
          cx="70"
-         cy="413.40408"
+         cy="406.74847"
          r="5"
          stroke="#ffffff"
-         id="circle2911" />
+         id="circle771" />
       <circle
          cx="140"
-         cy="420.53598"
+         cy="414.20416"
          r="5"
          stroke="#ffffff"
-         id="circle2913" />
+         id="circle773" />
       <circle
          cx="210"
-         cy="366.21744"
+         cy="357.41949"
          r="5"
          stroke="#ffffff"
-         id="circle2915" />
+         id="circle775" />
       <circle
          cx="280"
-         cy="304.27206"
+         cy="292.66174"
          r="5"
          stroke="#ffffff"
-         id="circle2917" />
+         id="circle777" />
       <circle
          cx="350"
-         cy="235.52232"
+         cy="220.7907"
          r="5"
          stroke="#ffffff"
-         id="circle2919" />
+         id="circle779" />
       <circle
          cx="420"
-         cy="211.46277"
+         cy="195.63881"
          r="5"
          stroke="#ffffff"
-         id="circle2921" />
+         id="circle781" />
       <circle
          cx="490"
-         cy="172.88309"
+         cy="155.30756"
          r="5"
          stroke="#ffffff"
-         id="circle2923" />
+         id="circle783" />
       <circle
          cx="560"
-         cy="98.453331"
+         cy="77.498619"
          r="5"
          stroke="#ffffff"
-         id="circle2925" />
+         id="circle785" />
     </g>
     <g
        class="javascript"
        style="fill:#e5c494"
-       id="g2945">
+       id="g805">
       <circle
          cx="70"
-         cy="359.36096"
+         cy="350.25171"
          r="5"
          stroke="#ffffff"
-         id="circle2929" />
+         id="circle789" />
       <circle
          cx="140"
-         cy="424.58234"
+         cy="418.43423"
          r="5"
          stroke="#ffffff"
-         id="circle2931" />
+         id="circle791" />
       <circle
          cx="210"
-         cy="382.57352"
+         cy="374.51816"
          r="5"
          stroke="#ffffff"
-         id="circle2933" />
+         id="circle793" />
       <circle
          cx="280"
-         cy="254.42609"
+         cy="240.5527"
          r="5"
          stroke="#ffffff"
-         id="circle2935" />
+         id="circle795" />
       <circle
          cx="350"
-         cy="246.30119"
+         cy="232.05893"
          r="5"
          stroke="#ffffff"
-         id="circle2937" />
+         id="circle797" />
       <circle
          cx="420"
-         cy="175.31914"
+         cy="157.85422"
          r="5"
          stroke="#ffffff"
-         id="circle2939" />
+         id="circle799" />
       <circle
          cx="490"
-         cy="121.34978"
+         cy="101.43459"
          r="5"
          stroke="#ffffff"
-         id="circle2941" />
+         id="circle801" />
       <circle
          cx="560"
-         cy="55.91457"
+         cy="33.028549"
          r="5"
          stroke="#ffffff"
-         id="circle2943" />
+         id="circle803" />
     </g>
     <g
        class="python"
        style="fill:#b3b3b3"
-       id="g2963">
+       id="g823">
       <circle
          cx="70"
-         cy="439.54831"
+         cy="434.07968"
          r="5"
          stroke="#ffffff"
-         id="circle2947" />
+         id="circle807" />
       <circle
          cx="140"
-         cy="439.54831"
+         cy="434.07968"
          r="5"
          stroke="#ffffff"
-         id="circle2949" />
+         id="circle809" />
       <circle
          cx="210"
-         cy="377.88718"
+         cy="369.61905"
          r="5"
          stroke="#ffffff"
-         id="circle2951" />
+         id="circle811" />
       <circle
          cx="280"
-         cy="315.67346"
+         cy="304.58078"
          r="5"
          stroke="#ffffff"
-         id="circle2953" />
+         id="circle813" />
       <circle
          cx="350"
-         cy="268.10828"
+         cy="254.85608"
          r="5"
          stroke="#ffffff"
-         id="circle2955" />
+         id="circle815" />
       <circle
          cx="420"
-         cy="196.58476"
+         cy="180.08533"
          r="5"
          stroke="#ffffff"
-         id="circle2957" />
+         id="circle817" />
       <circle
          cx="490"
-         cy="126.68063"
+         cy="107.00747"
          r="5"
          stroke="#ffffff"
-         id="circle2959" />
+         id="circle819" />
       <circle
          cx="560"
-         cy="52.995228"
+         cy="29.976667"
          r="5"
          stroke="#ffffff"
-         id="circle2961" />
+         id="circle821" />
     </g>
     <g
-       id="g2967">
+       id="g827">
       <text
          class="cpp"
-         transform="translate(560,109.19021)"
+         transform="translate(560,88.722963)"
          x="12"
          style="font-size:15px;fill:#66c2a5"
-         id="text2965">cpp</text>
+         id="text825">cpp</text>
     </g>
     <g
-       id="g2971">
+       id="g831">
       <text
          class="scala"
-         transform="translate(560,60.078074)"
+         transform="translate(560,32.890162)"
          x="12"
          style="font-size:15px;fill:#fc8d62"
-         id="text2969">scala</text>
+         id="text829">scala</text>
     </g>
     <g
-       id="g2975">
+       id="g835">
       <text
          class="elixir"
          transform="translate(560)"
          x="12"
          style="font-size:15px;fill:#8da0cb"
-         id="text2973">elixir</text>
+         id="text833">elixir</text>
     </g>
     <g
-       id="g2979">
+       id="g839">
       <text
          class="lua"
-         transform="translate(560,67.902121)"
+         transform="translate(560,45.56035)"
          x="12"
          style="font-size:15px;fill:#e78ac3"
-         id="text2977">lua</text>
+         id="text837">lua</text>
     </g>
     <g
-       id="g2983">
+       id="g843">
       <text
          class="java"
-         transform="translate(560,88.008809)"
+         transform="translate(560,66.579903)"
          x="12"
          style="font-size:15px;fill:#a6d854"
-         id="text2981">java</text>
+         id="text841">java</text>
     </g>
     <g
-       id="g2987">
+       id="g847">
       <text
          class="rust"
-         transform="translate(560,98.453332)"
+         transform="translate(560,77.498619)"
          x="12"
          style="font-size:15px;fill:#ffd92f"
-         id="text2985">rust</text>
+         id="text845">rust</text>
     </g>
     <g
-       id="g2991">
+       id="g851">
       <text
          class="javascript"
-         transform="translate(560,55.914568)"
+         transform="translate(560,33.028549)"
          x="12"
          style="font-size:15px;fill:#e5c494"
-         id="text2989">javascript</text>
+         id="text849">javascript</text>
     </g>
     <g
-       id="g2995">
+       id="g855">
       <text
          class="python"
-         transform="translate(560,52.995228)"
+         transform="translate(560,29.976668)"
          x="12"
          style="font-size:15px;fill:#b3b3b3"
-         id="text2993">python</text>
+         id="text853">python</text>
     </g>
     <g
-       id="g2999">
+       id="g859">
       <rect
          x="80"
          y="16"
          width="20"
          height="20"
          style="fill:#66c2a5"
-         id="rect2997" />
+         id="rect857" />
     </g>
     <g
-       id="g3003">
+       id="g863">
       <rect
          x="180"
          y="16"
          width="20"
          height="20"
          style="fill:#fc8d62"
-         id="rect3001" />
+         id="rect861" />
     </g>
     <g
-       id="g3007">
+       id="g867">
       <rect
          x="280"
          y="16"
          width="20"
          height="20"
          style="fill:#8da0cb"
-         id="rect3005" />
+         id="rect865" />
     </g>
     <g
-       id="g3011">
+       id="g871">
       <rect
          x="380"
          y="16"
          width="20"
          height="20"
          style="fill:#e78ac3"
-         id="rect3009" />
+         id="rect869" />
     </g>
     <g
-       id="g3015">
+       id="g875">
       <rect
          x="80"
          y="46"
          width="20"
          height="20"
          style="fill:#a6d854"
-         id="rect3013" />
+         id="rect873" />
     </g>
     <g
-       id="g3019">
+       id="g879">
       <rect
          x="180"
          y="46"
          width="20"
          height="20"
          style="fill:#ffd92f"
-         id="rect3017" />
+         id="rect877" />
     </g>
     <g
-       id="g3023">
+       id="g883">
       <rect
          x="280"
          y="46"
          width="20"
          height="20"
          style="fill:#e5c494"
-         id="rect3021" />
+         id="rect881" />
     </g>
     <g
-       id="g3027">
+       id="g887">
       <rect
          x="380"
          y="46"
          width="20"
          height="20"
          style="fill:#b3b3b3"
-         id="rect3025" />
+         id="rect885" />
     </g>
     <g
-       id="g3031">
+       id="g891">
       <text
          x="105"
          y="30"
          style="font-size:15px;fill:#000000"
-         id="text3029">cpp</text>
+         id="text889">cpp</text>
     </g>
     <g
-       id="g3035">
+       id="g895">
       <text
          x="205"
          y="30"
          style="font-size:15px;fill:#000000"
-         id="text3033">scala</text>
+         id="text893">scala</text>
     </g>
     <g
-       id="g3039">
+       id="g899">
       <text
          x="305"
          y="30"
          style="font-size:15px;fill:#000000"
-         id="text3037">elixir</text>
+         id="text897">elixir</text>
     </g>
     <g
-       id="g3043">
+       id="g903">
       <text
          x="405"
          y="30"
          style="font-size:15px;fill:#000000"
-         id="text3041">lua</text>
+         id="text901">lua</text>
     </g>
     <g
-       id="g3047">
+       id="g907">
       <text
          x="105"
          y="60"
          style="font-size:15px;fill:#000000"
-         id="text3045">java</text>
+         id="text905">java</text>
     </g>
     <g
-       id="g3051">
+       id="g911">
       <text
          x="205"
          y="60"
          style="font-size:15px;fill:#000000"
-         id="text3049">rust</text>
+         id="text909">rust</text>
     </g>
     <g
-       id="g3055">
+       id="g915">
       <text
          x="305"
          y="60"
          style="font-size:15px;fill:#000000"
-         id="text3053">javascript</text>
+         id="text913">javascript</text>
     </g>
     <g
-       id="g3059">
+       id="g919">
       <text
          x="405"
          y="60"
          style="font-size:15px;fill:#000000"
-         id="text3057">python</text>
+         id="text917">python</text>
+    </g>
+  </g>
+  <g
+     transform="translate(78.678855,31.146656)"
+     id="g1317">
+    <g
+       transform="translate(0,560)"
+       fill="none"
+       font-size="10px"
+       font-family="sans-serif"
+       text-anchor="middle"
+       id="g985">
+      <path
+         class="domain"
+         stroke="#000000"
+         d="M 0.5,6 V 0.5 h 560 V 6"
+         id="path929" />
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0.5)"
+         id="g935">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line931"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text933">0</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(70.5)"
+         id="g941">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line937"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text939">1</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(140.5)"
+         id="g947">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line943"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text945">2</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(210.5)"
+         id="g953">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line949"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text951">3</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(280.5)"
+         id="g959">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line955"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text957">4</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(350.5)"
+         id="g965">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line961"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text963">5</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(420.5)"
+         id="g971">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line967"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text969">6</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(490.5)"
+         id="g977">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line973"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text975">7</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(560.5)"
+         id="g983">
+        <line
+           stroke="#000000"
+           y2="6"
+           id="line979"
+           x1="0"
+           y1="0"
+           x2="0" />
+        <text
+           fill="#000000"
+           y="9"
+           dy="0.70999998em"
+           id="text981">8</text>
+      </g>
+    </g>
+    <text
+       class="x label"
+       text-anchor="middle"
+       x="280"
+       y="590"
+       id="text987">Power</text>
+    <g
+       class="yaxis"
+       fill="none"
+       font-size="10px"
+       font-family="sans-serif"
+       text-anchor="end"
+       id="g1057">
+      <path
+         class="domain"
+         stroke="#000000"
+         d="M -6,560.5 H 0.5 V 0.5 H -6"
+         id="path989" />
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,560.5)"
+         id="g995">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line991"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text993">0k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,504.5)"
+         id="g1001">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line997"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text999">20k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,448.5)"
+         id="g1007">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1003"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1005">40k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,392.5)"
+         id="g1013">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1009"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1011">60k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,336.5)"
+         id="g1019">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1015"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1017">80k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,280.5)"
+         id="g1025">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1021"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1023">100k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,224.5)"
+         id="g1031">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1027"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1029">120k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,168.5)"
+         id="g1037">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1033"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1035">140k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,112.5)"
+         id="g1043">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1039"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1041">160k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,56.5)"
+         id="g1049">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1045"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1047">180k</text>
+      </g>
+      <g
+         class="tick"
+         opacity="1"
+         transform="translate(0,0.5)"
+         id="g1055">
+        <line
+           stroke="#000000"
+           x2="-6"
+           id="line1051"
+           x1="0"
+           y1="0"
+           y2="0" />
+        <text
+           fill="#000000"
+           x="-9"
+           dy="0.31999999em"
+           id="text1053">200k</text>
+      </g>
+    </g>
+    <text
+       class="y label"
+       text-anchor="middle"
+       x="-280"
+       y="-46.666668"
+       transform="rotate(-90)"
+       id="text1059">Execution Time</text>
+    <path
+       class="cpp"
+       d="m 70,559.7032 70,-0.14 70,-0.1848 70,-0.6636 70,-2.6936 70,-4.7488 70,-9.968 70,-51.9148"
+       stroke="#66c2a5"
+       style="fill:none;stroke-width:4"
+       id="path1061" />
+    <path
+       class="scala"
+       d="m 70,559.3588 70,-0.574 70,-3.1836 70,-5.6056 70,-3.8444 70,-50.904 70,-10.5812 70,-159.2752"
+       stroke="#fc8d62"
+       style="fill:none;stroke-width:4"
+       id="path1063" />
+    <path
+       class="elixir"
+       d="m 70,559.972 70,-0.003 70,-0.1372 70,-0.5768 70,-2.7188 70,-13.86 70,-75.0008 70,-383.6"
+       stroke="#8da0cb"
+       style="fill:none;stroke-width:4"
+       id="path1065" />
+    <path
+       class="lua"
+       d="m 70,559.8964 70,-0.0812 70,-0.406 70,-1.7248 70,-2.814 70,-3.6428 70,-30.8168 70,-139.062"
+       stroke="#e78ac3"
+       style="fill:none;stroke-width:4"
+       id="path1067" />
+    <path
+       class="java"
+       d="m 70,559.468 70,0.364 70,-0.9156 70,-2.1028 70,-4.6536 70,-24.0632 70,-21.7616 70,-60.0152"
+       stroke="#a6d854"
+       style="fill:none;stroke-width:4"
+       id="path1069" />
+    <path
+       class="rust"
+       d="m 70,559.9244 70,0.0112 70,-0.154 70,-0.6608 70,-3.2452 70,-2.9596 70,-9.7804 70,-73.024"
+       stroke="#ffd92f"
+       style="fill:none;stroke-width:4"
+       id="path1071" />
+    <path
+       class="javascript"
+       d="m 70,559.7452 70,0.196 70,-0.0924 70,-2.5452 70,-0.5404 70,-12.7288 70,-37.7552 70,-180.1912"
+       stroke="#e5c494"
+       style="fill:none;stroke-width:4"
+       id="path1073" />
+    <path
+       class="python"
+       d="m 70,559.958 h 70 l 70,-0.126 70,-0.5124 70,-1.302 70,-7.9156 70,-37.7552 70,-202.1264"
+       stroke="#b3b3b3"
+       style="fill:none;stroke-width:4"
+       id="path1075" />
+    <g
+       class="cpp"
+       style="fill:#66c2a5"
+       id="g1093">
+      <circle
+         cx="70"
+         cy="559.70319"
+         r="5"
+         stroke="#ffffff"
+         id="circle1077" />
+      <circle
+         cx="140"
+         cy="559.56317"
+         r="5"
+         stroke="#ffffff"
+         id="circle1079" />
+      <circle
+         cx="210"
+         cy="559.37842"
+         r="5"
+         stroke="#ffffff"
+         id="circle1081" />
+      <circle
+         cx="280"
+         cy="558.71478"
+         r="5"
+         stroke="#ffffff"
+         id="circle1083" />
+      <circle
+         cx="350"
+         cy="556.02118"
+         r="5"
+         stroke="#ffffff"
+         id="circle1085" />
+      <circle
+         cx="420"
+         cy="551.2724"
+         r="5"
+         stroke="#ffffff"
+         id="circle1087" />
+      <circle
+         cx="490"
+         cy="541.30438"
+         r="5"
+         stroke="#ffffff"
+         id="circle1089" />
+      <circle
+         cx="560"
+         cy="489.38959"
+         r="5"
+         stroke="#ffffff"
+         id="circle1091" />
+    </g>
+    <g
+       class="scala"
+       style="fill:#fc8d62"
+       id="g1111">
+      <circle
+         cx="70"
+         cy="559.35883"
+         r="5"
+         stroke="#ffffff"
+         id="circle1095" />
+      <circle
+         cx="140"
+         cy="558.78479"
+         r="5"
+         stroke="#ffffff"
+         id="circle1097" />
+      <circle
+         cx="210"
+         cy="555.6012"
+         r="5"
+         stroke="#ffffff"
+         id="circle1099" />
+      <circle
+         cx="280"
+         cy="549.99561"
+         r="5"
+         stroke="#ffffff"
+         id="circle1101" />
+      <circle
+         cx="350"
+         cy="546.15118"
+         r="5"
+         stroke="#ffffff"
+         id="circle1103" />
+      <circle
+         cx="420"
+         cy="495.24719"
+         r="5"
+         stroke="#ffffff"
+         id="circle1105" />
+      <circle
+         cx="490"
+         cy="484.66599"
+         r="5"
+         stroke="#ffffff"
+         id="circle1107" />
+      <circle
+         cx="560"
+         cy="325.39081"
+         r="5"
+         stroke="#ffffff"
+         id="circle1109" />
+    </g>
+    <g
+       class="elixir"
+       style="fill:#8da0cb"
+       id="g1129">
+      <circle
+         cx="70"
+         cy="559.97198"
+         r="5"
+         stroke="#ffffff"
+         id="circle1113" />
+      <circle
+         cx="140"
+         cy="559.96918"
+         r="5"
+         stroke="#ffffff"
+         id="circle1115" />
+      <circle
+         cx="210"
+         cy="559.83197"
+         r="5"
+         stroke="#ffffff"
+         id="circle1117" />
+      <circle
+         cx="280"
+         cy="559.25519"
+         r="5"
+         stroke="#ffffff"
+         id="circle1119" />
+      <circle
+         cx="350"
+         cy="556.53638"
+         r="5"
+         stroke="#ffffff"
+         id="circle1121" />
+      <circle
+         cx="420"
+         cy="542.67639"
+         r="5"
+         stroke="#ffffff"
+         id="circle1123" />
+      <circle
+         cx="490"
+         cy="467.6756"
+         r="5"
+         stroke="#ffffff"
+         id="circle1125" />
+      <circle
+         cx="560"
+         cy="84.0756"
+         r="5"
+         stroke="#ffffff"
+         id="circle1127" />
+    </g>
+    <g
+       class="lua"
+       style="fill:#e78ac3"
+       id="g1147">
+      <circle
+         cx="70"
+         cy="559.89642"
+         r="5"
+         stroke="#ffffff"
+         id="circle1131" />
+      <circle
+         cx="140"
+         cy="559.81519"
+         r="5"
+         stroke="#ffffff"
+         id="circle1133" />
+      <circle
+         cx="210"
+         cy="559.40918"
+         r="5"
+         stroke="#ffffff"
+         id="circle1135" />
+      <circle
+         cx="280"
+         cy="557.68439"
+         r="5"
+         stroke="#ffffff"
+         id="circle1137" />
+      <circle
+         cx="350"
+         cy="554.87042"
+         r="5"
+         stroke="#ffffff"
+         id="circle1139" />
+      <circle
+         cx="420"
+         cy="551.2276"
+         r="5"
+         stroke="#ffffff"
+         id="circle1141" />
+      <circle
+         cx="490"
+         cy="520.41083"
+         r="5"
+         stroke="#ffffff"
+         id="circle1143" />
+      <circle
+         cx="560"
+         cy="381.34879"
+         r="5"
+         stroke="#ffffff"
+         id="circle1145" />
+    </g>
+    <g
+       class="java"
+       style="fill:#a6d854"
+       id="g1165">
+      <circle
+         cx="70"
+         cy="559.46802"
+         r="5"
+         stroke="#ffffff"
+         id="circle1149" />
+      <circle
+         cx="140"
+         cy="559.83197"
+         r="5"
+         stroke="#ffffff"
+         id="circle1151" />
+      <circle
+         cx="210"
+         cy="558.91638"
+         r="5"
+         stroke="#ffffff"
+         id="circle1153" />
+      <circle
+         cx="280"
+         cy="556.8136"
+         r="5"
+         stroke="#ffffff"
+         id="circle1155" />
+      <circle
+         cx="350"
+         cy="552.15997"
+         r="5"
+         stroke="#ffffff"
+         id="circle1157" />
+      <circle
+         cx="420"
+         cy="528.0968"
+         r="5"
+         stroke="#ffffff"
+         id="circle1159" />
+      <circle
+         cx="490"
+         cy="506.33521"
+         r="5"
+         stroke="#ffffff"
+         id="circle1161" />
+      <circle
+         cx="560"
+         cy="446.32001"
+         r="5"
+         stroke="#ffffff"
+         id="circle1163" />
+    </g>
+    <g
+       class="rust"
+       style="fill:#ffd92f"
+       id="g1183">
+      <circle
+         cx="70"
+         cy="559.92438"
+         r="5"
+         stroke="#ffffff"
+         id="circle1167" />
+      <circle
+         cx="140"
+         cy="559.93561"
+         r="5"
+         stroke="#ffffff"
+         id="circle1169" />
+      <circle
+         cx="210"
+         cy="559.78162"
+         r="5"
+         stroke="#ffffff"
+         id="circle1171" />
+      <circle
+         cx="280"
+         cy="559.12079"
+         r="5"
+         stroke="#ffffff"
+         id="circle1173" />
+      <circle
+         cx="350"
+         cy="555.87561"
+         r="5"
+         stroke="#ffffff"
+         id="circle1175" />
+      <circle
+         cx="420"
+         cy="552.91602"
+         r="5"
+         stroke="#ffffff"
+         id="circle1177" />
+      <circle
+         cx="490"
+         cy="543.13562"
+         r="5"
+         stroke="#ffffff"
+         id="circle1179" />
+      <circle
+         cx="560"
+         cy="470.1116"
+         r="5"
+         stroke="#ffffff"
+         id="circle1181" />
+    </g>
+    <g
+       class="javascript"
+       style="fill:#e5c494"
+       id="g1201">
+      <circle
+         cx="70"
+         cy="559.74518"
+         r="5"
+         stroke="#ffffff"
+         id="circle1185" />
+      <circle
+         cx="140"
+         cy="559.94122"
+         r="5"
+         stroke="#ffffff"
+         id="circle1187" />
+      <circle
+         cx="210"
+         cy="559.84882"
+         r="5"
+         stroke="#ffffff"
+         id="circle1189" />
+      <circle
+         cx="280"
+         cy="557.30359"
+         r="5"
+         stroke="#ffffff"
+         id="circle1191" />
+      <circle
+         cx="350"
+         cy="556.76318"
+         r="5"
+         stroke="#ffffff"
+         id="circle1193" />
+      <circle
+         cx="420"
+         cy="544.03442"
+         r="5"
+         stroke="#ffffff"
+         id="circle1195" />
+      <circle
+         cx="490"
+         cy="506.27921"
+         r="5"
+         stroke="#ffffff"
+         id="circle1197" />
+      <circle
+         cx="560"
+         cy="326.08801"
+         r="5"
+         stroke="#ffffff"
+         id="circle1199" />
+    </g>
+    <g
+       class="python"
+       style="fill:#b3b3b3"
+       id="g1219">
+      <circle
+         cx="70"
+         cy="559.95801"
+         r="5"
+         stroke="#ffffff"
+         id="circle1203" />
+      <circle
+         cx="140"
+         cy="559.95801"
+         r="5"
+         stroke="#ffffff"
+         id="circle1205" />
+      <circle
+         cx="210"
+         cy="559.83197"
+         r="5"
+         stroke="#ffffff"
+         id="circle1207" />
+      <circle
+         cx="280"
+         cy="559.31958"
+         r="5"
+         stroke="#ffffff"
+         id="circle1209" />
+      <circle
+         cx="350"
+         cy="558.01758"
+         r="5"
+         stroke="#ffffff"
+         id="circle1211" />
+      <circle
+         cx="420"
+         cy="550.10199"
+         r="5"
+         stroke="#ffffff"
+         id="circle1213" />
+      <circle
+         cx="490"
+         cy="512.3468"
+         r="5"
+         stroke="#ffffff"
+         id="circle1215" />
+      <circle
+         cx="560"
+         cy="310.2204"
+         r="5"
+         stroke="#ffffff"
+         id="circle1217" />
+    </g>
+    <g
+       id="g1223">
+      <text
+         class="cpp"
+         transform="translate(560,489.3896)"
+         x="12"
+         style="font-size:15px;fill:#66c2a5"
+         id="text1221">cpp</text>
+    </g>
+    <g
+       id="g1227">
+      <text
+         class="scala"
+         transform="translate(560,325.3908)"
+         x="12"
+         style="font-size:15px;fill:#fc8d62"
+         id="text1225">scala</text>
+    </g>
+    <g
+       id="g1231">
+      <text
+         class="elixir"
+         transform="translate(560,84.0756)"
+         x="12"
+         style="font-size:15px;fill:#8da0cb"
+         id="text1229">elixir</text>
+    </g>
+    <g
+       id="g1235">
+      <text
+         class="lua"
+         transform="translate(560,381.3488)"
+         x="12"
+         style="font-size:15px;fill:#e78ac3"
+         id="text1233">lua</text>
+    </g>
+    <g
+       id="g1239">
+      <text
+         class="java"
+         transform="translate(560,446.32)"
+         x="12"
+         style="font-size:15px;fill:#a6d854"
+         id="text1237">java</text>
+    </g>
+    <g
+       id="g1243">
+      <text
+         class="rust"
+         transform="translate(560,470.1116)"
+         x="12"
+         style="font-size:15px;fill:#ffd92f"
+         id="text1241">rust</text>
+    </g>
+    <g
+       id="g1247">
+      <text
+         class="javascript"
+         transform="translate(560,326.088)"
+         x="12"
+         style="font-size:15px;fill:#e5c494"
+         id="text1245">javascript</text>
+    </g>
+    <g
+       id="g1251">
+      <text
+         class="python"
+         transform="translate(560,310.2204)"
+         x="12"
+         style="font-size:15px;fill:#b3b3b3"
+         id="text1249">python</text>
+    </g>
+    <g
+       id="g1255">
+      <rect
+         x="80"
+         y="16"
+         width="20"
+         height="20"
+         style="fill:#66c2a5"
+         id="rect1253" />
+    </g>
+    <g
+       id="g1259">
+      <rect
+         x="180"
+         y="16"
+         width="20"
+         height="20"
+         style="fill:#fc8d62"
+         id="rect1257" />
+    </g>
+    <g
+       id="g1263">
+      <rect
+         x="280"
+         y="16"
+         width="20"
+         height="20"
+         style="fill:#8da0cb"
+         id="rect1261" />
+    </g>
+    <g
+       id="g1267">
+      <rect
+         x="380"
+         y="16"
+         width="20"
+         height="20"
+         style="fill:#e78ac3"
+         id="rect1265" />
+    </g>
+    <g
+       id="g1271">
+      <rect
+         x="80"
+         y="46"
+         width="20"
+         height="20"
+         style="fill:#a6d854"
+         id="rect1269" />
+    </g>
+    <g
+       id="g1275">
+      <rect
+         x="180"
+         y="46"
+         width="20"
+         height="20"
+         style="fill:#ffd92f"
+         id="rect1273" />
+    </g>
+    <g
+       id="g1279">
+      <rect
+         x="280"
+         y="46"
+         width="20"
+         height="20"
+         style="fill:#e5c494"
+         id="rect1277" />
+    </g>
+    <g
+       id="g1283">
+      <rect
+         x="380"
+         y="46"
+         width="20"
+         height="20"
+         style="fill:#b3b3b3"
+         id="rect1281" />
+    </g>
+    <g
+       id="g1287">
+      <text
+         x="105"
+         y="30"
+         style="font-size:15px;fill:#000000"
+         id="text1285">cpp</text>
+    </g>
+    <g
+       id="g1291">
+      <text
+         x="205"
+         y="30"
+         style="font-size:15px;fill:#000000"
+         id="text1289">scala</text>
+    </g>
+    <g
+       id="g1295">
+      <text
+         x="305"
+         y="30"
+         style="font-size:15px;fill:#000000"
+         id="text1293">elixir</text>
+    </g>
+    <g
+       id="g1299">
+      <text
+         x="405"
+         y="30"
+         style="font-size:15px;fill:#000000"
+         id="text1297">lua</text>
+    </g>
+    <g
+       id="g1303">
+      <text
+         x="105"
+         y="60"
+         style="font-size:15px;fill:#000000"
+         id="text1301">java</text>
+    </g>
+    <g
+       id="g1307">
+      <text
+         x="205"
+         y="60"
+         style="font-size:15px;fill:#000000"
+         id="text1305">rust</text>
+    </g>
+    <g
+       id="g1311">
+      <text
+         x="305"
+         y="60"
+         style="font-size:15px;fill:#000000"
+         id="text1309">javascript</text>
+    </g>
+    <g
+       id="g1315">
+      <text
+         x="405"
+         y="60"
+         style="font-size:15px;fill:#000000"
+         id="text1313">python</text>
     </g>
   </g>
 </svg>
