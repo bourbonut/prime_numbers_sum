@@ -37,6 +37,7 @@ function format(dist, value){
 
 console.log("Power | Time (µs) | Resultat")
 console.log("========================================")
+P10(100)
 for (let i=1; i<9; i++){
     var start = performance.now();
     var result = P10(Math.floor(Math.pow(10, i)));

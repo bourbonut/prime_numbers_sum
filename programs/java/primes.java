@@ -61,6 +61,7 @@ public class Main{
         Main App = new Main();
         System.out.println("Power | Time (µs) | Resultat");
         System.out.println("========================================");
+        primes(100);
         for (int i = 1; i < 9; i++){
             long start = System.nanoTime();
             long result = primes((int) Math.pow(10, i));
