@@ -38,6 +38,7 @@ defmodule Primes do
   @spec calculate(%{integer => integer}, [integer], integer, integer) :: %{integer => integer}
   defp calculate(sums, keys, p, limit) when p < limit do
     sum_p = sums[p - 1]
+
     if sums[p] > sum_p do
       Enum.take_while(keys, &(&1 >= p * p))
       |> Enum.into(%{}, &small(&1, sums, p, sum_p))
@@ -98,6 +99,7 @@ IO.puts("Power | Time (µs) | Result")
 IO.puts("=========================================")
 
 Primes.sum_up_to(100)
+
 1..8
 |> Enum.map(fn exp ->
   f = Primes.measure(fn -> Primes.sum_up_to(:math.pow(10, exp) |> round) end)
