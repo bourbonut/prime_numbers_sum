@@ -30,33 +30,27 @@ defmodule Primes do
     Enum.into(keys, %{}, &n_sums(&1))
   end
 
-  @spec set(integer, %{integer => integer}, integer, integer) :: {integer}
-  defp set(v, dict, p, sp) do
+  @spec small(integer, %{integer => integer}, integer, integer) :: {integer}
+  defp small(v, dict, p, sp) do
     {v, dict[v] - p * (dict[div(v, p)] - sp)}
   end
 
-  @spec calculate(integer, %{integer => integer}, [integer]) :: %{integer => integer}
-  defp calculate(2, sums, keys) do
-    update(2, sums, keys)
-  end
-
-  @spec calculate(integer, %{integer => integer}, [integer]) :: %{integer => integer}
-  defp calculate(i, sums, keys) do
-    update(i, calculate(i - 1, sums, keys), keys)
-  end
-
-  @spec calculate(integer, %{integer => integer}, [integer]) :: %{integer => integer}
-  defp update(p, sums, keys) do
+  @spec calculate(%{integer => integer}, [integer], integer, integer) :: %{integer => integer}
+  defp calculate(sums, keys, p, limit) when p < limit do
     sum_p = sums[p - 1]
-
     if sums[p] > sum_p do
-      p_square = p * p
-
-      Enum.take_while(keys, &(&1 >= p_square))
-      |> Enum.into(sums, &set(&1, sums, p, sum_p))
+      Enum.take_while(keys, &(&1 >= p * p))
+      |> Enum.into(%{}, &small(&1, sums, p, sum_p))
+      |> (&Map.merge(sums, &1)).()
+      |> calculate(keys, p + 1, limit)
     else
-      sums
+      calculate(sums, keys, p + 1, limit)
     end
+  end
+
+  @spec calculate(%{integer => integer}, [integer], integer, integer) :: %{integer => integer}
+  defp calculate(sums, _, p, limit) when p >= limit do
+    sums
   end
 
   @spec sum_up_to(integer) :: integer
@@ -64,8 +58,7 @@ defmodule Primes do
     root_n = sqrt(n)
     keys = generate_keys(n, root_n)
     sums = generate_sums(keys)
-
-    calculate(root_n + 1, sums, keys)[n]
+    calculate(sums, keys, 2, root_n + 1)[n]
   end
 
   @spec measure(function) :: integer
@@ -104,6 +97,7 @@ end
 IO.puts("Power | Time (µs) | Result")
 IO.puts("=========================================")
 
+Primes.sum_up_to(100)
 1..8
 |> Enum.map(fn exp ->
   f = Primes.measure(fn -> Primes.sum_up_to(:math.pow(10, exp) |> round) end)
